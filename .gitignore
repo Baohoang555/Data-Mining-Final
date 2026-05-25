@@ -40,26 +40,10 @@ ENV/
 secrets.json
 
 # ============================================================
-# Data - Raw & Datalake (file lớn, không commit lên git)
-# ============================================================
-data/raw/
-data/datalake/
-
-# Cho phép commit cấu trúc thư mục (giữ .gitkeep)
-!data/raw/.gitkeep
-!data/datalake/.gitkeep
-
-# ============================================================
 # EDA Outputs (file generate tự động)
 # ============================================================
 ph02_eda/outputs/
 !ph02_eda/outputs/.gitkeep
-
-# ============================================================
-# Jupyter Notebook
-# ============================================================
-.ipynb_checkpoints/
-*.ipynb
 
 # ============================================================
 # IDE & Editor
