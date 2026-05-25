@@ -1,0 +1,34 @@
+# Core dependencies
+python-dotenv==1.0.0
+requests==2.31.0
+tenacity==8.2.3
+tqdm==4.66.1
+
+# Data processing
+pandas==2.1.1
+numpy==1.24.3
+pyarrow==13.0.0
+
+# APIs
+openaq==2.2.1
+
+# EDA & Visualization
+matplotlib==3.8.1
+seaborn==0.13.0
+plotly==5.17.0
+folium==0.14.0
+
+# Statistical analysis
+scipy==1.11.3
+statsmodels==0.14.0
+scikit-learn==1.3.2
+esda==2.5.1
+
+# Auto EDA report
+ydata-profiling==4.5.1
+
+# Optional: Jupyter support
+jupyter==1.0.0
+ipython==8.16.0
+
+libpysal==4.9.2
