@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_001858e9d26f498f81b7c7e13056b9e4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_001858e9d26f498f81b7c7e13056b9e4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_001858e9d26f498f81b7c7e13056b9e4 = L.map(
+                "map_001858e9d26f498f81b7c7e13056b9e4",
+                {
+                    center: [21.0285, 105.8535],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3cd3592664dc266e660f85d2512a476f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3cd3592664dc266e660f85d2512a476f.addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+            var circle_marker_00ea49ddec53818ec13d4d8ac1bbfdd2 = L.circleMarker(
+                [21.0491, 105.8831],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_8ce2c53ca5c1aa87a085aab14c854b93 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e27e5c23efed11610fc981ee2d4cc7e6 = $(`<div id="html_e27e5c23efed11610fc981ee2d4cc7e6" style="width: 100.0%; height: 100.0%;"><b>556 Nguyễn Văn Cừ</b><br>Station: HN_001<br>Records: 6,000<br>Parameters: 6</div>`)[0];
+                popup_8ce2c53ca5c1aa87a085aab14c854b93.setContent(html_e27e5c23efed11610fc981ee2d4cc7e6);
+            
+        
+
+        circle_marker_00ea49ddec53818ec13d4d8ac1bbfdd2.bindPopup(popup_8ce2c53ca5c1aa87a085aab14c854b93)
+        ;
+
+        
+    
+    
+            var circle_marker_78cf178a206ad3e12e300f59ab462521 = L.circleMarker(
+                [21.0024, 105.7181],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_0bd9b2dc642bb8decfa6e2dd1a7d2de4 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a088da9191d9e8aa7aaefc791f164c7f = $(`<div id="html_a088da9191d9e8aa7aaefc791f164c7f" style="width: 100.0%; height: 100.0%;"><b>An Khánh</b><br>Station: HN_002<br>Records: 4,000<br>Parameters: 4</div>`)[0];
+                popup_0bd9b2dc642bb8decfa6e2dd1a7d2de4.setContent(html_a088da9191d9e8aa7aaefc791f164c7f);
+            
+        
+
+        circle_marker_78cf178a206ad3e12e300f59ab462521.bindPopup(popup_0bd9b2dc642bb8decfa6e2dd1a7d2de4)
+        ;
+
+        
+    
+    
+            var circle_marker_dff2ed2f792afbe24017933f0b5b92e4 = L.circleMarker(
+                [20.92, 105.7123],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_fbe861527cdd24919f55cf3e21aee241 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_eb26b7b51f806449db1e202306c89e3d = $(`<div id="html_eb26b7b51f806449db1e202306c89e3d" style="width: 100.0%; height: 100.0%;"><b>Chúc Sơn</b><br>Station: HN_003<br>Records: 4,000<br>Parameters: 4</div>`)[0];
+                popup_fbe861527cdd24919f55cf3e21aee241.setContent(html_eb26b7b51f806449db1e202306c89e3d);
+            
+        
+
+        circle_marker_dff2ed2f792afbe24017933f0b5b92e4.bindPopup(popup_fbe861527cdd24919f55cf3e21aee241)
+        ;
+
+        
+    
+    
+            var circle_marker_f92500c1a6e65e18573568aedb2266bb = L.circleMarker(
+                [21.0284, 105.8556],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_44bf09cdfd4df606a7945d929923eac2 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c2d4ed2e6f3b079d64e1534c34d280e1 = $(`<div id="html_c2d4ed2e6f3b079d64e1534c34d280e1" style="width: 100.0%; height: 100.0%;"><b>Cung thiếu nhi</b><br>Station: HN_004<br>Records: 4,000<br>Parameters: 4</div>`)[0];
+                popup_44bf09cdfd4df606a7945d929923eac2.setContent(html_c2d4ed2e6f3b079d64e1534c34d280e1);
+            
+        
+
+        circle_marker_f92500c1a6e65e18573568aedb2266bb.bindPopup(popup_44bf09cdfd4df606a7945d929923eac2)
+        ;
+
+        
+    
+    
+            var circle_marker_56a19817c21178492e26b0c37b307d43 = L.circleMarker(
+                [21.0031, 105.79470000000002],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_0456bbc88614f0f78c1ae79d532cdd02 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ea945b22d8d6dccde1f3ff1645716092 = $(`<div id="html_ea945b22d8d6dccde1f3ff1645716092" style="width: 100.0%; height: 100.0%;"><b>Công viên Nhân Chính - Khuất Duy Tiến</b><br>Station: HN_005<br>Records: 6,000<br>Parameters: 6</div>`)[0];
+                popup_0456bbc88614f0f78c1ae79d532cdd02.setContent(html_ea945b22d8d6dccde1f3ff1645716092);
+            
+        
+
+        circle_marker_56a19817c21178492e26b0c37b307d43.bindPopup(popup_0456bbc88614f0f78c1ae79d532cdd02)
+        ;
+
+        
+    
+    
+            var circle_marker_c4709a3cdc2a28c9560304504164e934 = L.circleMarker(
+                [21.0398, 105.7652],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_6f2297fbaba8c9934b92ec9404e7864b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_86e592d66abefc1d25500ae04172379a = $(`<div id="html_86e592d66abefc1d25500ae04172379a" style="width: 100.0%; height: 100.0%;"><b>Cầu Diễn</b><br>Station: HN_006<br>Records: 4,000<br>Parameters: 4</div>`)[0];
+                popup_6f2297fbaba8c9934b92ec9404e7864b.setContent(html_86e592d66abefc1d25500ae04172379a);
+            
+        
+
+        circle_marker_c4709a3cdc2a28c9560304504164e934.bindPopup(popup_6f2297fbaba8c9934b92ec9404e7864b)
+        ;
+
+        
+    
+    
+            var circle_marker_106ec9863dc1310fcdc192c529ad0f92 = L.circleMarker(
+                [21.021939, 105.818806],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_41481d214734188a272a6a43f5e8990f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_65f487e0970c6337ade2bc3c31105428 = $(`<div id="html_65f487e0970c6337ade2bc3c31105428" style="width: 100.0%; height: 100.0%;"><b>Hanoi</b><br>Station: HN_007<br>Records: 954<br>Parameters: 1</div>`)[0];
+                popup_41481d214734188a272a6a43f5e8990f.setContent(html_65f487e0970c6337ade2bc3c31105428);
+            
+        
+
+        circle_marker_106ec9863dc1310fcdc192c529ad0f92.bindPopup(popup_41481d214734188a272a6a43f5e8990f)
+        ;
+
+        
+    
+    
+            var circle_marker_6fcfe7759c1d47bd6e9079c4db8fe727 = L.circleMarker(
+                [21.0263, 105.8515],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_decfbcf90e787e779106624add969228 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_786a326645cb905a34f35c2e9ecfb8d1 = $(`<div id="html_786a326645cb905a34f35c2e9ecfb8d1" style="width: 100.0%; height: 100.0%;"><b>Hoàn Kiếm</b><br>Station: HN_008<br>Records: 92<br>Parameters: 4</div>`)[0];
+                popup_decfbcf90e787e779106624add969228.setContent(html_786a326645cb905a34f35c2e9ecfb8d1);
+            
+        
+
+        circle_marker_6fcfe7759c1d47bd6e9079c4db8fe727.bindPopup(popup_decfbcf90e787e779106624add969228)
+        ;
+
+        
+    
+    
+            var circle_marker_696e680f7901ae0bd822bebc042f7f19 = L.circleMarker(
+                [21.0399, 105.8473],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_f96e83de2948367b99041aff9b10cbe5 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_34d92cfa2591c4b6116ced4afba28a1c = $(`<div id="html_34d92cfa2591c4b6116ced4afba28a1c" style="width: 100.0%; height: 100.0%;"><b>Hàng Đậu</b><br>Station: HN_009<br>Records: 4,000<br>Parameters: 4</div>`)[0];
+                popup_f96e83de2948367b99041aff9b10cbe5.setContent(html_34d92cfa2591c4b6116ced4afba28a1c);
+            
+        
+
+        circle_marker_696e680f7901ae0bd822bebc042f7f19.bindPopup(popup_f96e83de2948367b99041aff9b10cbe5)
+        ;
+
+        
+    
+    
+            var circle_marker_6707285a333985431d17d9f8dfe8c96c = L.circleMarker(
+                [20.9949, 105.8167],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_25ddc5fcc098b9d4a4368cfd5e444038 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_29741dcf62c097fdad23eebfce548669 = $(`<div id="html_29741dcf62c097fdad23eebfce548669" style="width: 100.0%; height: 100.0%;"><b>Khương Trung</b><br>Station: HN_010<br>Records: 4,000<br>Parameters: 4</div>`)[0];
+                popup_25ddc5fcc098b9d4a4368cfd5e444038.setContent(html_29741dcf62c097fdad23eebfce548669);
+            
+        
+
+        circle_marker_6707285a333985431d17d9f8dfe8c96c.bindPopup(popup_25ddc5fcc098b9d4a4368cfd5e444038)
+        ;
+
+        
+    
+    
+            var circle_marker_d8218af1bdddf936a85d9ab7c3b7bfaa = L.circleMarker(
+                [20.858, 105.7656],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_ee06aa69cd972b21d765a9c7e9ddad0c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_74969216c1b5eb9ae917fada40665df8 = $(`<div id="html_74969216c1b5eb9ae917fada40665df8" style="width: 100.0%; height: 100.0%;"><b>Kim Bài</b><br>Station: HN_011<br>Records: 4,000<br>Parameters: 4</div>`)[0];
+                popup_ee06aa69cd972b21d765a9c7e9ddad0c.setContent(html_74969216c1b5eb9ae917fada40665df8);
+            
+        
+
+        circle_marker_d8218af1bdddf936a85d9ab7c3b7bfaa.bindPopup(popup_ee06aa69cd972b21d765a9c7e9ddad0c)
+        ;
+
+        
+    
+    
+            var circle_marker_5671014b8c048d39088cec8d853556dc = L.circleMarker(
+                [21.0074, 105.8358],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_19b3f03e6a57376d623522e1f81cbef7 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_70be135479a53a8fe036a1e5bc4f3826 = $(`<div id="html_70be135479a53a8fe036a1e5bc4f3826" style="width: 100.0%; height: 100.0%;"><b>Kim Liên</b><br>Station: HN_012<br>Records: 2,076<br>Parameters: 4</div>`)[0];
+                popup_19b3f03e6a57376d623522e1f81cbef7.setContent(html_70be135479a53a8fe036a1e5bc4f3826);
+            
+        
+
+        circle_marker_5671014b8c048d39088cec8d853556dc.bindPopup(popup_19b3f03e6a57376d623522e1f81cbef7)
+        ;
+
+        
+    
+    
+            var circle_marker_c2d9b1bf59d505fd34d87c257dfb3752 = L.circleMarker(
+                [21.056, 105.578],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_d2bcf519a03ba271517307d7b20f7480 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_80655aaa793e6f4417e62a980c94b9bb = $(`<div id="html_80655aaa793e6f4417e62a980c94b9bb" style="width: 100.0%; height: 100.0%;"><b>Liên Quan</b><br>Station: HN_013<br>Records: 4,000<br>Parameters: 4</div>`)[0];
+                popup_d2bcf519a03ba271517307d7b20f7480.setContent(html_80655aaa793e6f4417e62a980c94b9bb);
+            
+        
+
+        circle_marker_c2d9b1bf59d505fd34d87c257dfb3752.bindPopup(popup_d2bcf519a03ba271517307d7b20f7480)
+        ;
+
+        
+    
+    
+            var circle_marker_2242aa46e9dc9003599221fe9d992490 = L.circleMarker(
+                [21.0327, 105.8329],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_e85dcf7288fd6af22af0e8bd7567db4c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a668fe459e2b315d9df033882362eacf = $(`<div id="html_a668fe459e2b315d9df033882362eacf" style="width: 100.0%; height: 100.0%;"><b>Lê Trực</b><br>Station: HN_014<br>Records: 57<br>Parameters: 4</div>`)[0];
+                popup_e85dcf7288fd6af22af0e8bd7567db4c.setContent(html_a668fe459e2b315d9df033882362eacf);
+            
+        
+
+        circle_marker_2242aa46e9dc9003599221fe9d992490.bindPopup(popup_e85dcf7288fd6af22af0e8bd7567db4c)
+        ;
+
+        
+    
+    
+            var circle_marker_0d6c5e5863757b77abfc757b176dca2a = L.circleMarker(
+                [21.05, 105.74],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_24a84e0f1aa2d4a3e9dc5f2ba01a72c3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c211a2f462ebd481d1a6090d17885c4f = $(`<div id="html_c211a2f462ebd481d1a6090d17885c4f" style="width: 100.0%; height: 100.0%;"><b>Minh Khai - Bắc Từ Liêm</b><br>Station: HN_015<br>Records: 6,000<br>Parameters: 6</div>`)[0];
+                popup_24a84e0f1aa2d4a3e9dc5f2ba01a72c3.setContent(html_c211a2f462ebd481d1a6090d17885c4f);
+            
+        
+
+        circle_marker_0d6c5e5863757b77abfc757b176dca2a.bindPopup(popup_24a84e0f1aa2d4a3e9dc5f2ba01a72c3)
+        ;
+
+        
+    
+    
+            var circle_marker_b0f4d777751913ee210dd69343f3cc3a = L.circleMarker(
+                [21.0269, 105.7731],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_d8c75b567eb9532ea96d2967dd4b94d9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_3d1b420b2ca261694c7c6a847f71b107 = $(`<div id="html_3d1b420b2ca261694c7c6a847f71b107" style="width: 100.0%; height: 100.0%;"><b>Mỹ Đình</b><br>Station: HN_016<br>Records: 48<br>Parameters: 4</div>`)[0];
+                popup_d8c75b567eb9532ea96d2967dd4b94d9.setContent(html_3d1b420b2ca261694c7c6a847f71b107);
+            
+        
+
+        circle_marker_b0f4d777751913ee210dd69343f3cc3a.bindPopup(popup_d8c75b567eb9532ea96d2967dd4b94d9)
+        ;
+
+        
+    
+    
+            var circle_marker_877120809dc9468fac60dab625dcccef = L.circleMarker(
+                [20.9933, 105.9441],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_80de1984d7b74b2829239c12fecf8bb1 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_fc94b76d1928ac8c815111239f40532a = $(`<div id="html_fc94b76d1928ac8c815111239f40532a" style="width: 100.0%; height: 100.0%;"><b>OceanPark</b><br>Station: HN_017<br>Records: 5,000<br>Parameters: 5</div>`)[0];
+                popup_80de1984d7b74b2829239c12fecf8bb1.setContent(html_fc94b76d1928ac8c815111239f40532a);
+            
+        
+
+        circle_marker_877120809dc9468fac60dab625dcccef.bindPopup(popup_80de1984d7b74b2829239c12fecf8bb1)
+        ;
+
+        
+    
+    
+            var circle_marker_07b9b5612c5ccfdd04ed6676ebd578b3 = L.circleMarker(
+                [20.9481, 105.8493],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_0cc298533f9d9a09e83905d827cc6ea9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f2411e4a13a5e68c480dbc0ce610b35d = $(`<div id="html_f2411e4a13a5e68c480dbc0ce610b35d" style="width: 100.0%; height: 100.0%;"><b>Pháp Vân</b><br>Station: HN_018<br>Records: 4,000<br>Parameters: 4</div>`)[0];
+                popup_0cc298533f9d9a09e83905d827cc6ea9.setContent(html_f2411e4a13a5e68c480dbc0ce610b35d);
+            
+        
+
+        circle_marker_07b9b5612c5ccfdd04ed6676ebd578b3.bindPopup(popup_0cc298533f9d9a09e83905d827cc6ea9)
+        ;
+
+        
+    
+    
+            var circle_marker_b5565f1fde4ed09431a4fdd593eec735 = L.circleMarker(
+                [21.05, 105.782],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_da554b05441afddc195e6e429ed02a1e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_bf55d754148a1ebd96249d92915f7cc0 = $(`<div id="html_bf55d754148a1ebd96249d92915f7cc0" style="width: 100.0%; height: 100.0%;"><b>Phạm Văn Đồng</b><br>Station: HN_019<br>Records: 8<br>Parameters: 4</div>`)[0];
+                popup_da554b05441afddc195e6e429ed02a1e.setContent(html_bf55d754148a1ebd96249d92915f7cc0);
+            
+        
+
+        circle_marker_b5565f1fde4ed09431a4fdd593eec735.bindPopup(popup_da554b05441afddc195e6e429ed02a1e)
+        ;
+
+        
+    
+    
+            var circle_marker_78cc7ee8972e4c9f285bd6411adfe765 = L.circleMarker(
+                [20.7793, 105.7851],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_d0e844313676ae2a13ec18ecdea62d91 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_32fddd05776a8e6bc5b224ad8e84b87b = $(`<div id="html_32fddd05776a8e6bc5b224ad8e84b87b" style="width: 100.0%; height: 100.0%;"><b>Quảng Phú Cầu</b><br>Station: HN_020<br>Records: 4,000<br>Parameters: 4</div>`)[0];
+                popup_d0e844313676ae2a13ec18ecdea62d91.setContent(html_32fddd05776a8e6bc5b224ad8e84b87b);
+            
+        
+
+        circle_marker_78cc7ee8972e4c9f285bd6411adfe765.bindPopup(popup_d0e844313676ae2a13ec18ecdea62d91)
+        ;
+
+        
+    
+    
+            var circle_marker_135bc18d9442a1ebb52b29203dcc9383 = L.circleMarker(
+                [21.0478, 105.8],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_a4a683f99b42c33ef9a9e70b7f5ef43b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a994c33c17a889c064f36f57dcdc0272 = $(`<div id="html_a994c33c17a889c064f36f57dcdc0272" style="width: 100.0%; height: 100.0%;"><b>SPARTAN - Vietnam Acad. Sci.</b><br>Station: HN_022<br>Records: 163<br>Parameters: 1</div>`)[0];
+                popup_a4a683f99b42c33ef9a9e70b7f5ef43b.setContent(html_a994c33c17a889c064f36f57dcdc0272);
+            
+        
+
+        circle_marker_135bc18d9442a1ebb52b29203dcc9383.bindPopup(popup_a4a683f99b42c33ef9a9e70b7f5ef43b)
+        ;
+
+        
+    
+    
+            var circle_marker_d888ca1cf958879af786e0c8f30f2963 = L.circleMarker(
+                [21.0167, 105.6478],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_acbd0f67cb08699d0bcfa9142954a3b6 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4d1952638c87b9e7a65e41aa431833d2 = $(`<div id="html_4d1952638c87b9e7a65e41aa431833d2" style="width: 100.0%; height: 100.0%;"><b>Sài Sơn</b><br>Station: HN_023<br>Records: 4,000<br>Parameters: 4</div>`)[0];
+                popup_acbd0f67cb08699d0bcfa9142954a3b6.setContent(html_4d1952638c87b9e7a65e41aa431833d2);
+            
+        
+
+        circle_marker_d888ca1cf958879af786e0c8f30f2963.bindPopup(popup_acbd0f67cb08699d0bcfa9142954a3b6)
+        ;
+
+        
+    
+    
+            var circle_marker_a1a9104c24fa6c207e2e70ee77508d91 = L.circleMarker(
+                [21.2575, 105.8514],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_9de221edaa53c3b0ae32cd517c815ec6 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b303b17ff8b36893efe458bb4970aa28 = $(`<div id="html_b303b17ff8b36893efe458bb4970aa28" style="width: 100.0%; height: 100.0%;"><b>Sóc Sơn</b><br>Station: HN_024<br>Records: 4,000<br>Parameters: 4</div>`)[0];
+                popup_9de221edaa53c3b0ae32cd517c815ec6.setContent(html_b303b17ff8b36893efe458bb4970aa28);
+            
+        
+
+        circle_marker_a1a9104c24fa6c207e2e70ee77508d91.bindPopup(popup_9de221edaa53c3b0ae32cd517c815ec6)
+        ;
+
+        
+    
+    
+            var circle_marker_99d4b78e9f42494af481b149c83d0e7b = L.circleMarker(
+                [21.0052, 105.8418],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_aa854928ba8e0f58cf90589991046704 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e21c1b4dfe0b33f446b42498439fe715 = $(`<div id="html_e21c1b4dfe0b33f446b42498439fe715" style="width: 100.0%; height: 100.0%;"><b>Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK </b><br>Station: HN_025<br>Records: 6,000<br>Parameters: 6</div>`)[0];
+                popup_aa854928ba8e0f58cf90589991046704.setContent(html_e21c1b4dfe0b33f446b42498439fe715);
+            
+        
+
+        circle_marker_99d4b78e9f42494af481b149c83d0e7b.bindPopup(popup_aa854928ba8e0f58cf90589991046704)
+        ;
+
+        
+    
+    
+            var circle_marker_6badbbfdf0329ef975a2a58aece1257d = L.circleMarker(
+                [21.0152, 105.7999],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_699ffb46c4bc02225c2d37d8f934a714 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c370700e04cb7b946c288f1d1b869e68 = $(`<div id="html_c370700e04cb7b946c288f1d1b869e68" style="width: 100.0%; height: 100.0%;"><b>Số 46, phố Lưu Quang Vũ</b><br>Station: HN_026<br>Records: 5,984<br>Parameters: 6</div>`)[0];
+                popup_699ffb46c4bc02225c2d37d8f934a714.setContent(html_c370700e04cb7b946c288f1d1b869e68);
+            
+        
+
+        circle_marker_6badbbfdf0329ef975a2a58aece1257d.bindPopup(popup_699ffb46c4bc02225c2d37d8f934a714)
+        ;
+
+        
+    
+    
+            var circle_marker_dfae42c07a43d4fddf60a0b47d56a29c = L.circleMarker(
+                [21.2287, 105.7583],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_6d83f1f1b793907d3a052a2e2a50a7eb = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_cc0b78f67af6e4ffdb6a0cf15a9e75e4 = $(`<div id="html_cc0b78f67af6e4ffdb6a0cf15a9e75e4" style="width: 100.0%; height: 100.0%;"><b>Thanh Xuân - Sóc Sơn</b><br>Station: HN_027<br>Records: 4,000<br>Parameters: 4</div>`)[0];
+                popup_6d83f1f1b793907d3a052a2e2a50a7eb.setContent(html_cc0b78f67af6e4ffdb6a0cf15a9e75e4);
+            
+        
+
+        circle_marker_dfae42c07a43d4fddf60a0b47d56a29c.bindPopup(popup_6d83f1f1b793907d3a052a2e2a50a7eb)
+        ;
+
+        
+    
+    
+            var circle_marker_78853a99b74a5b67e83760f27d380aeb = L.circleMarker(
+                [21.0197, 105.8147],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_5998f6dbb551f3acbbc21759ca485462 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a96ee31c35f5f9403d5b5e43063b6ef0 = $(`<div id="html_a96ee31c35f5f9403d5b5e43063b6ef0" style="width: 100.0%; height: 100.0%;"><b>Thành Công</b><br>Station: HN_028<br>Records: 883<br>Parameters: 4</div>`)[0];
+                popup_5998f6dbb551f3acbbc21759ca485462.setContent(html_a96ee31c35f5f9403d5b5e43063b6ef0);
+            
+        
+
+        circle_marker_78853a99b74a5b67e83760f27d380aeb.bindPopup(popup_5998f6dbb551f3acbbc21759ca485462)
+        ;
+
+        
+    
+    
+            var circle_marker_5d3ac8c7718ae7a3f1cd61c8d57fff60 = L.circleMarker(
+                [20.9883, 105.8549],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_1d30eda36bd6734acc86e66efe9e7ddb = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4d0abd34cb750b631ea7330c9990290a = $(`<div id="html_4d0abd34cb750b631ea7330c9990290a" style="width: 100.0%; height: 100.0%;"><b>Tân Mai</b><br>Station: HN_029<br>Records: 1,170<br>Parameters: 4</div>`)[0];
+                popup_1d30eda36bd6734acc86e66efe9e7ddb.setContent(html_4d0abd34cb750b631ea7330c9990290a);
+            
+        
+
+        circle_marker_5d3ac8c7718ae7a3f1cd61c8d57fff60.bindPopup(popup_1d30eda36bd6734acc86e66efe9e7ddb)
+        ;
+
+        
+    
+    
+            var circle_marker_83c07bde4daefd7fc4761a8172bea7ab = L.circleMarker(
+                [21.0563, 105.7974],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_a605159ea29129ad66678c9f25cb87d5 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_cd409366990be213b689e3b049ca3b27 = $(`<div id="html_cd409366990be213b689e3b049ca3b27" style="width: 100.0%; height: 100.0%;"><b>Tây Hồ Tây</b><br>Station: HN_030<br>Records: 2,213<br>Parameters: 4</div>`)[0];
+                popup_a605159ea29129ad66678c9f25cb87d5.setContent(html_cd409366990be213b689e3b049ca3b27);
+            
+        
+
+        circle_marker_83c07bde4daefd7fc4761a8172bea7ab.bindPopup(popup_a605159ea29129ad66678c9f25cb87d5)
+        ;
+
+        
+    
+    
+            var circle_marker_c1046a513797c185ec48d69ce3a72f3f = L.circleMarker(
+                [21.0058, 105.7485],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_bb17964ff38e0cb880ffaf4a72a4655b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4b7f02cb6dae9332d102078f984156a6 = $(`<div id="html_4b7f02cb6dae9332d102078f984156a6" style="width: 100.0%; height: 100.0%;"><b>Tây Mỗ</b><br>Station: HN_031<br>Records: 204<br>Parameters: 4</div>`)[0];
+                popup_bb17964ff38e0cb880ffaf4a72a4655b.setContent(html_4b7f02cb6dae9332d102078f984156a6);
+            
+        
+
+        circle_marker_c1046a513797c185ec48d69ce3a72f3f.bindPopup(popup_bb17964ff38e0cb880ffaf4a72a4655b)
+        ;
+
+        
+    
+    
+            var circle_marker_583c19d08d10793e31b808ae4b7f0e7e = L.circleMarker(
+                [21.0639, 105.8338],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_ef3a9c915841a6cfe85b388ad129d2c1 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_794cf7120978566bac765cd12164811a = $(`<div id="html_794cf7120978566bac765cd12164811a" style="width: 100.0%; height: 100.0%;"><b>Tứ Liên</b><br>Station: HN_032<br>Records: 2,244<br>Parameters: 4</div>`)[0];
+                popup_ef3a9c915841a6cfe85b388ad129d2c1.setContent(html_794cf7120978566bac765cd12164811a);
+            
+        
+
+        circle_marker_583c19d08d10793e31b808ae4b7f0e7e.bindPopup(popup_ef3a9c915841a6cfe85b388ad129d2c1)
+        ;
+
+        
+    
+    
+            var circle_marker_f0c5b1d2413038cf44737a863f075045 = L.circleMarker(
+                [21.02177, 105.819002],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_15648365bac27750403e5734773d973f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c7bdeb7f4a1ea44b65a3ed47f9a983c6 = $(`<div id="html_c7bdeb7f4a1ea44b65a3ed47f9a983c6" style="width: 100.0%; height: 100.0%;"><b>US Diplomatic Post: Hanoi</b><br>Station: HN_033<br>Records: 788<br>Parameters: 1</div>`)[0];
+                popup_15648365bac27750403e5734773d973f.setContent(html_c7bdeb7f4a1ea44b65a3ed47f9a983c6);
+            
+        
+
+        circle_marker_f0c5b1d2413038cf44737a863f075045.bindPopup(popup_15648365bac27750403e5734773d973f)
+        ;
+
+        
+    
+    
+            var circle_marker_ee4e96beeb25cb7341371072f78b6d54 = L.circleMarker(
+                [21.1476, 105.9159],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_33e2857ae8693946906956775df6653b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_dfb13797f8f73779fed1bf94b77c6fa6 = $(`<div id="html_dfb13797f8f73779fed1bf94b77c6fa6" style="width: 100.0%; height: 100.0%;"><b>Vân Hà</b><br>Station: HN_034<br>Records: 4,000<br>Parameters: 4</div>`)[0];
+                popup_33e2857ae8693946906956775df6653b.setContent(html_dfb13797f8f73779fed1bf94b77c6fa6);
+            
+        
+
+        circle_marker_ee4e96beeb25cb7341371072f78b6d54.bindPopup(popup_33e2857ae8693946906956775df6653b)
+        ;
+
+        
+    
+    
+            var circle_marker_72d00d104f1cf6aaa3e6bdabaf625bd0 = L.circleMarker(
+                [20.7339, 105.7703],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_2ef87eb1407b3e78782079f376ced99b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_397f045cb5dfc471752591f8cc68ce84 = $(`<div id="html_397f045cb5dfc471752591f8cc68ce84" style="width: 100.0%; height: 100.0%;"><b>Vân Đình</b><br>Station: HN_035<br>Records: 4,000<br>Parameters: 4</div>`)[0];
+                popup_2ef87eb1407b3e78782079f376ced99b.setContent(html_397f045cb5dfc471752591f8cc68ce84);
+            
+        
+
+        circle_marker_72d00d104f1cf6aaa3e6bdabaf625bd0.bindPopup(popup_2ef87eb1407b3e78782079f376ced99b)
+        ;
+
+        
+    
+    
+            var circle_marker_7a59bb98f718e94ee95bab49c97bb583 = L.circleMarker(
+                [21.1105, 105.7605],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_7af267cf2a8085db58cd330d8269f072 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_662dd2e847f0933090d9ff6131a8d8f9 = $(`<div id="html_662dd2e847f0933090d9ff6131a8d8f9" style="width: 100.0%; height: 100.0%;"><b>Võng La</b><br>Station: HN_036<br>Records: 10<br>Parameters: 4</div>`)[0];
+                popup_7af267cf2a8085db58cd330d8269f072.setContent(html_662dd2e847f0933090d9ff6131a8d8f9);
+            
+        
+
+        circle_marker_7a59bb98f718e94ee95bab49c97bb583.bindPopup(popup_7af267cf2a8085db58cd330d8269f072)
+        ;
+
+        
+    
+    
+            var circle_marker_9120175cf3ddd8c72f6ab81d9345fbaf = L.circleMarker(
+                [20.972, 105.7856],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_9bf76a9cb68039a531a393cfe0cdcfe3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_87a0ec5be6f0da231920c6dadd85204e = $(`<div id="html_87a0ec5be6f0da231920c6dadd85204e" style="width: 100.0%; height: 100.0%;"><b>Văn Quán</b><br>Station: HN_037<br>Records: 3,042<br>Parameters: 4</div>`)[0];
+                popup_9bf76a9cb68039a531a393cfe0cdcfe3.setContent(html_87a0ec5be6f0da231920c6dadd85204e);
+            
+        
+
+        circle_marker_9120175cf3ddd8c72f6ab81d9345fbaf.bindPopup(popup_9bf76a9cb68039a531a393cfe0cdcfe3)
+        ;
+
+        
+    
+    
+            var circle_marker_0b05e5450fcad2200dbf1a29d5cc1443 = L.circleMarker(
+                [20.8994, 105.5773],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_41e61cf68ccbdf372b5d9c724aa4c495 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_09c268cb6dddc82c6a4d42a9fbc79ed7 = $(`<div id="html_09c268cb6dddc82c6a4d42a9fbc79ed7" style="width: 100.0%; height: 100.0%;"><b>Xuân Mai</b><br>Station: HN_038<br>Records: 4,000<br>Parameters: 4</div>`)[0];
+                popup_41e61cf68ccbdf372b5d9c724aa4c495.setContent(html_09c268cb6dddc82c6a4d42a9fbc79ed7);
+            
+        
+
+        circle_marker_0b05e5450fcad2200dbf1a29d5cc1443.bindPopup(popup_41e61cf68ccbdf372b5d9c724aa4c495)
+        ;
+
+        
+    
+    
+            var circle_marker_720ec76884652057480d7be0c16a562d = L.circleMarker(
+                [21.0354, 105.8529],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_03e5afa93a261056789984f4f4924d3d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_8e6f9555b81256b0f22dfc61c109c290 = $(`<div id="html_8e6f9555b81256b0f22dfc61c109c290" style="width: 100.0%; height: 100.0%;"><b>Đào Duy Từ</b><br>Station: HN_040<br>Records: 4,000<br>Parameters: 4</div>`)[0];
+                popup_03e5afa93a261056789984f4f4924d3d.setContent(html_8e6f9555b81256b0f22dfc61c109c290);
+            
+        
+
+        circle_marker_720ec76884652057480d7be0c16a562d.bindPopup(popup_03e5afa93a261056789984f4f4924d3d)
+        ;
+
+        
+    
+    
+            var circle_marker_a0eacd023145e6c2151a71bda43feaba = L.circleMarker(
+                [21.032, 105.8515],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_99fc9ae1c80435e8b6f2bef237f663b5 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_fdd575a22f353694a3b9b756fc8820db = $(`<div id="html_fdd575a22f353694a3b9b756fc8820db" style="width: 100.0%; height: 100.0%;"><b>Đông Kinh Nghĩa Thục</b><br>Station: HN_041<br>Records: 3,412<br>Parameters: 4</div>`)[0];
+                popup_99fc9ae1c80435e8b6f2bef237f663b5.setContent(html_fdd575a22f353694a3b9b756fc8820db);
+            
+        
+
+        circle_marker_a0eacd023145e6c2151a71bda43feaba.bindPopup(popup_99fc9ae1c80435e8b6f2bef237f663b5)
+        ;
+
+        
+    
+    
+            var circle_marker_696654ec82f4d26618797245cbc7ac57 = L.circleMarker(
+                [21.0119, 105.8644],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_80d8a12296f3eac99dcc6eb86dd7d2dd = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c0931dddfc22520ac1fce4f18d9ee7ca = $(`<div id="html_c0931dddfc22520ac1fce4f18d9ee7ca" style="width: 100.0%; height: 100.0%;"><b>Đầm Trấu</b><br>Station: HN_042<br>Records: 45<br>Parameters: 4</div>`)[0];
+                popup_80d8a12296f3eac99dcc6eb86dd7d2dd.setContent(html_c0931dddfc22520ac1fce4f18d9ee7ca);
+            
+        
+
+        circle_marker_696654ec82f4d26618797245cbc7ac57.bindPopup(popup_80d8a12296f3eac99dcc6eb86dd7d2dd)
+        ;
+
+        
+    
+    
+            var circle_marker_7051bd813d116c16e4bd8d6901a40e63 = L.circleMarker(
+                [20.6486, 105.8204],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+    
+        var popup_80bcacfd7bf3d042764ab5dc35af14b3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_22a7751b5e50d51620f3431c59b1fdf3 = $(`<div id="html_22a7751b5e50d51620f3431c59b1fdf3" style="width: 100.0%; height: 100.0%;"><b>Đội Bình</b><br>Station: HN_043<br>Records: 4,000<br>Parameters: 4</div>`)[0];
+                popup_80bcacfd7bf3d042764ab5dc35af14b3.setContent(html_22a7751b5e50d51620f3431c59b1fdf3);
+            
+        
+
+        circle_marker_7051bd813d116c16e4bd8d6901a40e63.bindPopup(popup_80bcacfd7bf3d042764ab5dc35af14b3)
+        ;
+
+        
+    
+    
+            var heat_map_c71a787a29218e725f136539d1499410 = L.heatLayer(
+                [[21.0491, 105.8831], [21.0024, 105.7181], [20.92, 105.7123], [21.0284, 105.8556], [21.0031, 105.79470000000002], [21.0398, 105.7652], [21.021939, 105.818806], [21.0263, 105.8515], [21.0399, 105.8473], [20.9949, 105.8167], [20.858, 105.7656], [21.0074, 105.8358], [21.056, 105.578], [21.0327, 105.8329], [21.05, 105.74], [21.0269, 105.7731], [20.9933, 105.9441], [20.9481, 105.8493], [21.05, 105.782], [20.7793, 105.7851], [21.0478, 105.8], [21.0167, 105.6478], [21.2575, 105.8514], [21.0052, 105.8418], [21.0152, 105.7999], [21.2287, 105.7583], [21.0197, 105.8147], [20.9883, 105.8549], [21.0563, 105.7974], [21.0058, 105.7485], [21.0639, 105.8338], [21.02177, 105.819002], [21.1476, 105.9159], [20.7339, 105.7703], [21.1105, 105.7605], [20.972, 105.7856], [20.8994, 105.5773], [21.0354, 105.8529], [21.032, 105.8515], [21.0119, 105.8644], [20.6486, 105.8204]],
+                {
+  "minOpacity": 0.5,
+  "maxZoom": 1,
+  "radius": 20,
+  "blur": 25,
+}
+            );
+        
+    
+            heat_map_c71a787a29218e725f136539d1499410.addTo(map_001858e9d26f498f81b7c7e13056b9e4);
+        
+</script>
+</html>
