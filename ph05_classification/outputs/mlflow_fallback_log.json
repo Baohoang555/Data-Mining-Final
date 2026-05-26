@@ -1,0 +1,51 @@
+{
+  "params": {
+    "target": "target_aqi_label_next_1h",
+    "feature_count": 155,
+    "base_learners": "XGBoost/LightGBM when ENABLE_BOOSTING=1 + RandomForest + ExtraTrees",
+    "meta_learner": "LogisticRegression",
+    "split_strategy": "PH-03 temporal test + stratified train/val"
+  },
+  "metrics": [
+    {
+      "model": "DecisionTree",
+      "split": "test",
+      "accuracy": 0.667805294619983,
+      "weighted_f1": 0.6710932435741329,
+      "macro_f1": 0.6601884498394271,
+      "cohen_kappa": 0.517024091262205
+    },
+    {
+      "model": "RandomForest",
+      "split": "test",
+      "accuracy": 0.6524338172502135,
+      "weighted_f1": 0.6422128393301411,
+      "macro_f1": 0.570877368507418,
+      "cohen_kappa": 0.47544305343923143
+    },
+    {
+      "model": "ExtraTrees",
+      "split": "test",
+      "accuracy": 0.6436806148590948,
+      "weighted_f1": 0.6302941141520804,
+      "macro_f1": 0.6106644565331052,
+      "cohen_kappa": 0.4664586990187669
+    },
+    {
+      "model": "LogisticRegression",
+      "split": "test",
+      "accuracy": 0.5597779675491034,
+      "weighted_f1": 0.5653232423749552,
+      "macro_f1": 0.5426148704727075,
+      "cohen_kappa": 0.3664675564476323
+    },
+    {
+      "model": "StackingEnsemble",
+      "split": "test",
+      "accuracy": 0.498932536293766,
+      "weighted_f1": 0.5127350510933522,
+      "macro_f1": 0.43936243610073034,
+      "cohen_kappa": 0.337353450677071
+    }
+  ]
+}
