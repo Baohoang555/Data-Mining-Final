@@ -32,8 +32,8 @@ stations = pd.read_csv(STATIONS_CSV)
 print(f"\n📍 Loaded {len(stations)} stations")
 
 # Date range — test 1 tháng trước, sau đó mở rộng
-DATE_FROM = "2024-01-01"
-DATE_TO   = "2024-01-31"
+DATE_FROM = "2024-12-31"
+DATE_TO   = "2025-12-31"
 
 
 @retry(stop=stop_after_attempt(3), wait=wait_fixed(5))
