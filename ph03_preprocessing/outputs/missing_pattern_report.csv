@@ -1,0 +1,12 @@
+﻿feature,missing_count,missing_rate,suggested_pattern
+temp,85102,1,MCAR-like: phân bố khá ngẫu nhiên
+wind_speed,85102,1,MCAR-like: phân bố khá ngẫu nhiên
+humidity,85102,1,MCAR-like: phân bố khá ngẫu nhiên
+um003,81762,0.9608,MAR/MNAR-like: phụ thuộc trạm đo
+pm1,81762,0.9608,MAR/MNAR-like: phụ thuộc trạm đo
+o3,80117,0.9414,MAR/MNAR-like: phụ thuộc trạm đo
+so2,80102,0.9412,MAR/MNAR-like: phụ thuộc trạm đo
+no2,58148,0.6833,MAR/MNAR-like: phụ thuộc trạm đo
+co,58152,0.6833,MAR/MNAR-like: phụ thuộc trạm đo
+pm10,57302,0.6733,MAR/MNAR-like: phụ thuộc trạm đo
+pm25,51128,0.6008,MAR/MNAR-like: phụ thuộc trạm đo

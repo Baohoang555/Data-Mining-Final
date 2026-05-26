@@ -1,0 +1,12 @@
+﻿feature,iqr_outliers,sensor_errors_set_nan,kept_as_real_pollution_events
+co,1361,713,648
+no2,1040,389,651
+o3,284,72,212
+pm1,54,18,36
+pm10,817,299,518
+pm25,1037,354,683
+so2,238,87,151
+um003,80,31,49
+temp,0,0,0
+humidity,0,0,0
+wind_speed,0,0,0

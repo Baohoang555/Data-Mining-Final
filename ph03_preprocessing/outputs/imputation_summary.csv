@@ -1,0 +1,3 @@
+﻿stage,remaining_missing_cells,method
+after_interpolation_before_long_gap_impute,783991,linear interpolation limit=2
+after_long_gap_impute_and_fallback,0,grouped median fallback because dataset is too large for exact KNN in normal laptop runtime
