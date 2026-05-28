@@ -1,0 +1,12 @@
+# Additional packages for An's PH-03 / PH-05 modules
+pandas
+numpy
+scikit-learn
+matplotlib
+joblib
+pyarrow
+xgboost
+lightgbm
+optuna
+shap
+imbalanced-learn

@@ -1,0 +1,2 @@
+column,invalid_count,min_allowed,max_allowed
+co2_emission,8,0,100000

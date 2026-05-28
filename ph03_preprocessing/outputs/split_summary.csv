@@ -1,0 +1,4 @@
+split,rows
+train,230500
+val,50710
+test,50710

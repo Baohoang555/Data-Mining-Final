@@ -21,3 +21,16 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+# Large generated files - do not push to GitHub
+ph03_preprocessing/outputs/*.pkl
+ph03_preprocessing/outputs/*.parquet
+ph03_preprocessing/outputs/*.csv
+
+ph05_classification/models/*.pkl
+ph05_classification/models/*.joblib
+ph05_classification/models/*.parquet
+
+# Optional large ML outputs
+*.pkl
+*.joblib
+*.parquet

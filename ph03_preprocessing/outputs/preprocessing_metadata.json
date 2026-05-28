@@ -1,0 +1,29 @@
+{
+  "raw_rows_loaded": 1349280,
+  "rows_after_cleaning": 331920,
+  "duplicate_rows_removed": 331920,
+  "countries": 24,
+  "cities": 2270,
+  "date_from": "2014-01-01",
+  "date_to": "2025-12-01",
+  "numeric_features": 64,
+  "categorical_features": 9,
+  "total_features": 73,
+  "target_col": "target_aqi_bucket",
+  "label_distribution": {
+    "Good": 89333,
+    "Satisfactory": 53195,
+    "Moderate": 124098,
+    "Unhealthy": 54498,
+    "Very_Unhealthy": 8045,
+    "Hazardous": 2751
+  },
+  "split_distribution": {
+    "train": 230500,
+    "val": 50710,
+    "test": 50710
+  },
+  "notes": [
+    "Full CSV skipped by default for speed. Set SAVE_FULL_CSV=1 if needed."
+  ]
+}

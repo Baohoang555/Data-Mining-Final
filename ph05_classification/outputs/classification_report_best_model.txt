@@ -1,0 +1,14 @@
+Best model by validation macro F1: LightGBM_Optuna
+
+                precision    recall  f1-score   support
+
+          Good       1.00      1.00      1.00      2821
+     Hazardous       0.83      0.78      0.80        76
+      Moderate       0.99      0.99      0.99      3634
+  Satisfactory       1.00      0.99      0.99      1580
+     Unhealthy       0.97      0.98      0.97      1653
+Very_Unhealthy       0.90      0.83      0.86       236
+
+      accuracy                           0.99     10000
+     macro avg       0.95      0.93      0.94     10000
+  weighted avg       0.99      0.99      0.99     10000

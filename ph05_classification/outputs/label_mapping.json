@@ -1,0 +1,26 @@
+{
+  "0": {
+    "label": "Good",
+    "label_vi": "Tốt"
+  },
+  "1": {
+    "label": "Hazardous",
+    "label_vi": "Nguy hại"
+  },
+  "2": {
+    "label": "Moderate",
+    "label_vi": "Trung bình"
+  },
+  "3": {
+    "label": "Satisfactory",
+    "label_vi": "Khá / Chấp nhận được"
+  },
+  "4": {
+    "label": "Unhealthy",
+    "label_vi": "Kém / Không lành mạnh"
+  },
+  "5": {
+    "label": "Very_Unhealthy",
+    "label_vi": "Rất xấu"
+  }
+}

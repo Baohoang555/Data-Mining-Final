@@ -1,0 +1,479 @@
+feature,importance
+num__pm25,3690.0
+num__country_freq,1120.0
+num__deforestation_rate,893.0
+num__pm25_humidity_interaction,774.0
+num__no2_nox_ratio,689.0
+num__pm25_pm10_ratio,666.0
+num__co2_emission,646.0
+num__co2_per_density,642.0
+num__o3_lag_1,628.0
+num__o3_lag_12,622.0
+num__pm25_wind_dispersion,615.0
+num__wind_speed_lag_1,610.0
+num__wind_speed_lag_3,602.0
+num__o3_lag_3,586.0
+num__nh3,586.0
+num__humidity_lag_3,585.0
+num__wind_speed_lag_12,574.0
+num__humidity,566.0
+num__co,558.0
+num__o3,545.0
+num__pm10_lag_3,530.0
+num__humidity_lag_12,522.0
+num__xylene,512.0
+num__wind_speed,509.0
+num__benzene_toluene_ratio,507.0
+num__industry_growth,504.0
+num__humidity_lag_1,498.0
+num__so2_no2_ratio,492.0
+num__industry_density_interaction,484.0
+num__no,477.0
+num__no2_lag_1,474.0
+num__nox,466.0
+num__co_lag_3,465.0
+num__co_lag_1,464.0
+num__benzene,452.0
+num__no2_lag_3,434.0
+num__co_lag_12,428.0
+num__no2_lag_12,416.0
+num__pm25_lag_3,413.0
+num__toluene,398.0
+num__so2,397.0
+num__no2,393.0
+num__pm10_lag_1,391.0
+num__pm25_lag_12,385.0
+num__pm10,358.0
+num__pm10_lag_12,345.0
+num__population_density,335.0
+num__pm25_lag_1,315.0
+num__pm10_minus_pm25,296.0
+num__year,282.0
+cat__country_India,274.0
+num__state_freq,252.0
+cat__country_China,246.0
+num__doy_cos,176.0
+num__doy_sin,174.0
+num__day_of_year,144.0
+cat__country_Indonesia,110.0
+num__month_cos,78.0
+num__month,74.0
+num__month_sin,66.0
+cat__country_Japan,60.0
+cat__country_Bangladesh,47.0
+cat__country_Brazil,46.0
+cat__state_Sumatra,45.0
+cat__country_Philippines,40.0
+cat__country_Pakistan,39.0
+cat__country_France,31.0
+num__is_covid_period,31.0
+cat__country_South Korea,28.0
+cat__country_South Africa,27.0
+cat__state_Khulna,25.0
+cat__state_Kalimantan (Borneo),25.0
+cat__country_Russia,23.0
+cat__state_São Paulo,22.0
+cat__state_Osaka,21.0
+cat__state_Haryana,21.0
+cat__state_Ural,20.0
+cat__country_Egypt,19.0
+num__city_freq,18.0
+cat__country_Mexico,17.0
+cat__state_Kano,16.0
+cat__country_Saudi Arabia,16.0
+cat__country_Nigeria,16.0
+cat__state_Papua & Maluku,15.0
+cat__state_Madinah Province,15.0
+cat__state_East Midlands,14.0
+cat__state_Siberian,14.0
+cat__state_Northern,13.0
+cat__state_infrequent_sklearn,13.0
+cat__country_United States,13.0
+cat__state_Western Australia,13.0
+cat__state_Mpumalanga,11.0
+cat__country_United Kingdom,11.0
+cat__state_Kanagawa,11.0
+num__quarter,11.0
+cat__state_North Rhine-Westphalia,10.0
+cat__state_Region IV-A (CALABARZON),9.0
+cat__state_Region VI (Western Visayas),9.0
+cat__country_Germany,9.0
+cat__state_Cairo,8.0
+cat__state_Arizona,8.0
+cat__state_Riyadh Province,8.0
+num__decade,8.0
+cat__country_Australia,7.0
+cat__state_Seoul Capital Area,7.0
+cat__state_Ohio,7.0
+cat__city_Gaya,6.0
+cat__state_Scotland,6.0
+cat__season_Spring,5.0
+cat__state_BARMM,5.0
+cat__state_Shizuoka,5.0
+cat__state_California,5.0
+cat__state_Rajasthan,5.0
+cat__state_West Midlands,5.0
+cat__state_Fukuoka,5.0
+cat__state_Henan,5.0
+cat__state_Hebei,5.0
+cat__state_Occitanie,5.0
+cat__state_Daegu-Gyeongbuk,5.0
+cat__state_Jalisco,4.0
+cat__state_Lagos,4.0
+cat__state_Tocantins,4.0
+cat__state_Region III (Central Luzon),4.0
+cat__state_Shaanxi,4.0
+cat__state_Northwestern,4.0
+cat__state_Minya,4.0
+cat__state_Delhi,4.0
+cat__state_Northern Borders,4.0
+cat__state_New York,4.0
+cat__state_Victoria,3.0
+cat__state_Rondônia,3.0
+num__high_humidity_flag,3.0
+cat__state_Region VII (Central Visayas),3.0
+cat__state_Odisha,3.0
+cat__state_Shandong,3.0
+cat__state_Aichi,3.0
+cat__season_Summer,3.0
+cat__state_Tokyo,3.0
+cat__city_infrequent_sklearn,3.0
+cat__state_Mie,3.0
+cat__state_Dhaka,3.0
+cat__state_Eastern Province,3.0
+cat__state_Hyogo,3.0
+cat__state_Gauteng,3.0
+cat__season_Winter,3.0
+cat__state_Makkah Province,3.0
+num__low_wind_flag,3.0
+cat__state_West Java,2.0
+cat__state_Chongqing,2.0
+cat__state_Guizhou,2.0
+cat__state_Yunnan,2.0
+cat__state_Gwangju-Jeonnam,2.0
+cat__state_Uttar Pradesh,2.0
+cat__state_Andhra Pradesh,2.0
+cat__state_Busan-Ulsan-Gyeongnam,2.0
+cat__state_Qinghai,2.0
+cat__state_Puebla,2.0
+cat__state_Tokushima,2.0
+cat__state_Region I (Ilocos),2.0
+cat__state_Sulawesi,2.0
+cat__season_Autumn,2.0
+cat__state_Arunachal Pradesh,1.0
+cat__state_Tibet,1.0
+cat__country_Vietnam,1.0
+cat__country_Turkey,1.0
+cat__state_Sylhet,1.0
+cat__state_Region X (Northern Mindanao),1.0
+cat__state_Texas,1.0
+cat__state_Sindh,1.0
+cat__state_Pennsylvania,1.0
+cat__state_Punjab,1.0
+cat__state_Pará,1.0
+cat__state_Queensland,1.0
+cat__state_Bretagne,1.0
+cat__state_Central Java,1.0
+cat__state_Region II (Cagayan Valley),1.0
+cat__state_Rangpur,1.0
+cat__state_Region XI (Davao),1.0
+cat__state_Rio Grande do Sul,1.0
+cat__state_Rio de Janeiro,1.0
+cat__state_Rivers,1.0
+cat__state_Saitama,1.0
+cat__state_Coahuila,1.0
+cat__state_Chhattisgarh,1.0
+cat__state_NCR,1.0
+cat__state_Jharkhand,1.0
+num__country_city_freq,1.0
+cat__state_Mato Grosso,1.0
+cat__state_East Java,1.0
+cat__state_Chiba,1.0
+cat__state_Northern Territory,1.0
+cat__state_Illinois,1.0
+cat__state_Greater London,1.0
+cat__state_Gujarat,1.0
+cat__state_Gunma,1.0
+cat__state_Hiroshima,1.0
+cat__state_Hong Kong SAR,1.0
+cat__state_Jammu and Kashmir,1.0
+cat__state_Utah,1.0
+cat__state_Guangdong,1.0
+cat__country_Ethiopia,1.0
+cat__state_Washington,0.0
+cat__state_West Virginia,0.0
+cat__state_Western Cape,0.0
+cat__state_West Bengal,0.0
+cat__city_Bangor,0.0
+cat__state_Akita,0.0
+cat__state_Afar,0.0
+cat__state_Aegean,0.0
+cat__country_Thailand,0.0
+cat__state_Wyoming,0.0
+cat__federal_district_Unknown,0.0
+cat__state_Tianjin,0.0
+cat__state_Thuringia,0.0
+cat__state_Tennessee,0.0
+cat__state_Telangana,0.0
+cat__state_Tasmania,0.0
+cat__state_Tamil Nadu,0.0
+cat__state_Tamaulipas,0.0
+cat__state_Tabuk Province,0.0
+cat__state_State of Mexico,0.0
+cat__state_Southwest Ethiopia,0.0
+cat__state_Fukushima,0.0
+cat__state_Jakarta (DKI),0.0
+cat__state_Iwate,0.0
+cat__state_Ishikawa,0.0
+cat__state_Inner Mongolia,0.0
+cat__state_Indiana,0.0
+cat__state_Imo,0.0
+cat__state_Idaho,0.0
+cat__state_Ibaraki,0.0
+cat__state_Hunan,0.0
+cat__state_Hubei,0.0
+cat__state_Hokkaido,0.0
+cat__state_Himachal Pradesh,0.0
+cat__state_Hesse,0.0
+cat__state_Heilongjiang,0.0
+cat__state_Hawaii,0.0
+cat__state_Jiangxi,0.0
+cat__state_Jiangsu,0.0
+cat__state_Jeonbuk,0.0
+cat__state_Jazan Province,0.0
+cat__state_Guanajuato,0.0
+cat__state_Grand Est,0.0
+cat__state_Goiás,0.0
+cat__state_Goa,0.0
+cat__state_Giza,0.0
+cat__state_Gilgit-Baltistan,0.0
+cat__state_Gifu,0.0
+cat__state_Gharbia,0.0
+cat__state_Georgia,0.0
+cat__state_Gansu,0.0
+cat__state_Gangwon,0.0
+cat__state_Gambela,0.0
+cat__state_Liaoning,0.0
+cat__state_Kyoto,0.0
+cat__state_KwaZulu-Natal,0.0
+cat__state_Kumamoto,0.0
+cat__state_Kochi,0.0
+cat__state_Khyber Pakhtunkhwa,0.0
+cat__state_Kerala,0.0
+cat__state_Kentucky,0.0
+cat__state_Katsina,0.0
+cat__state_Karnataka,0.0
+cat__state_Kansas,0.0
+cat__state_Kagoshima,0.0
+cat__state_Kagawa,0.0
+cat__state_Kafr El Sheikh,0.0
+cat__state_Kaduna,0.0
+cat__state_Jilin,0.0
+cat__state_Mekong River Delta,0.0
+cat__state_Meghalaya,0.0
+cat__state_Mediterranean,0.0
+cat__state_Matrouh,0.0
+cat__state_Massachusetts,0.0
+cat__state_Maryland,0.0
+cat__state_Marmara,0.0
+cat__state_Maranhão,0.0
+cat__state_Manipur,0.0
+cat__state_Maine,0.0
+cat__state_Maharashtra,0.0
+cat__state_Madhya Pradesh,0.0
+cat__state_Luxor,0.0
+cat__state_Lower Saxony,0.0
+cat__state_Louisiana,0.0
+cat__state_Limpopo,0.0
+cat__state_Minas Gerais,0.0
+cat__state_Michoacán,0.0
+cat__state_Michigan,0.0
+cat__state_Fukui,0.0
+cat__state_Fujian,0.0
+cat__state_Free State,0.0
+cat__state_Florida,0.0
+cat__state_Federal Capital Territory,0.0
+cat__state_Far Eastern,0.0
+cat__state_Faiyum,0.0
+cat__state_Espírito Santo,0.0
+cat__state_Ehime,0.0
+cat__state_Eastern Cape,0.0
+cat__state_Eastern Anatolia,0.0
+cat__state_Eastern,0.0
+cat__state_East of England,0.0
+cat__state_Nevada,0.0
+cat__state_Nebraska,0.0
+cat__state_Nara,0.0
+cat__state_Najran Province,0.0
+cat__state_Nagasaki,0.0
+cat__state_Nagano,0.0
+cat__state_Nagaland,0.0
+cat__state_Mymensingh,0.0
+cat__state_Monufia,0.0
+cat__state_Montana,0.0
+cat__state_Mizoram,0.0
+cat__state_Miyazaki,0.0
+cat__state_Miyagi,0.0
+cat__state_Missouri,0.0
+cat__state_Mississippi,0.0
+cat__state_Minnesota,0.0
+cat__state_North West,0.0
+cat__state_North Sinai,0.0
+cat__state_North East,0.0
+cat__state_North Dakota,0.0
+cat__state_North Central Coast,0.0
+cat__state_North Caucasian,0.0
+cat__state_North Carolina,0.0
+cat__state_Normandie,0.0
+cat__state_Ningxia,0.0
+cat__state_Niigata,0.0
+cat__state_Niger,0.0
+cat__state_New Valley,0.0
+cat__state_New South Wales,0.0
+cat__state_New Mexico,0.0
+cat__state_New Jersey,0.0
+cat__state_New Hampshire,0.0
+cat__state_Nuevo León,0.0
+cat__state_Nouvelle-Aquitaine,0.0
+cat__state_Northwest,0.0
+cat__state_Delaware,0.0
+cat__state_Damietta,0.0
+cat__state_Dakahlia,0.0
+cat__state_Daejeon-Chungnam,0.0
+cat__state_Connecticut,0.0
+cat__state_Colorado,0.0
+cat__state_Chungbuk,0.0
+cat__state_Chihuahua,0.0
+cat__state_Chiapas,0.0
+cat__state_Northern Ireland,0.0
+cat__state_Northern Cape,0.0
+cat__state_Northeastern,0.0
+cat__state_Northeast,0.0
+cat__state_Querétaro,0.0
+cat__state_Qena,0.0
+cat__state_Qalyubia,0.0
+cat__state_Provence-Alpes-Côte d'Azur,0.0
+cat__state_Piauí,0.0
+cat__state_Pernambuco,0.0
+cat__state_Pays de la Loire,0.0
+cat__state_Paraná,0.0
+cat__state_Oromia,0.0
+cat__state_Oregon,0.0
+cat__state_Oklahoma,0.0
+cat__state_Okinawa,0.0
+cat__state_Okayama,0.0
+cat__state_Oita,0.0
+cat__state_Ogun,0.0
+cat__state_Oaxaca,0.0
+cat__state_Region IV-B (MIMAROPA),0.0
+cat__state_Red Sea,0.0
+cat__state_Red River Delta,0.0
+cat__state_Rajshahi,0.0
+cat__state_Chattogram,0.0
+cat__state_Centre-Val de Loire,0.0
+cat__state_Central Highlands,0.0
+cat__state_Central Ethiopia,0.0
+cat__state_Central Anatolia,0.0
+cat__state_Central,0.0
+cat__state_Ceará,0.0
+cat__state_Canal Zone,0.0
+cat__state_Brandenburg,0.0
+cat__state_Bourgogne-Franche-Comté,0.0
+cat__state_Black Sea,0.0
+cat__state_Quintana Roo,0.0
+cat__state_Beni Suef,0.0
+cat__state_Beijing,0.0
+cat__state_Beheira,0.0
+cat__state_Bavaria,0.0
+cat__state_Barishal,0.0
+cat__state_Bangkok Metro,0.0
+cat__state_Balochistan,0.0
+cat__state_Bali & Nusa Tenggara,0.0
+cat__state_Baja California,0.0
+cat__state_Bahia,0.0
+cat__state_Baden-Wurtemberg,0.0
+cat__state_Auvergne-Rhône-Alpes,0.0
+cat__state_Asyut,0.0
+cat__state_Region VIII (Eastern Visayas),0.0
+cat__state_Region V (Bicol),0.0
+cat__state_Region IX (Zamboanga Peninsula),0.0
+cat__state_Shiga,0.0
+cat__state_Sharkia,0.0
+cat__state_Shanxi,0.0
+cat__state_Shanghai,0.0
+cat__state_Schleswig-Holstein,0.0
+cat__state_Saxony-Anhalt,0.0
+cat__state_Saxony,0.0
+cat__state_Santa Catarina,0.0
+cat__state_Saga,0.0
+cat__state_Rio Grande do Norte,0.0
+cat__state_Rhode Island,0.0
+cat__state_Rhineland-Palatinate,0.0
+cat__state_Region XIII (Caraga),0.0
+cat__state_Region XII (SOCCSKSARGEN),0.0
+cat__state_Bihar,0.0
+cat__state_Benishangul-Gumuz,0.0
+cat__state_South West,0.0
+cat__state_South Sinai,0.0
+cat__state_South Ethiopia,0.0
+cat__state_South East,0.0
+cat__state_South Dakota,0.0
+cat__state_South Central Coast,0.0
+cat__state_South Carolina,0.0
+cat__state_South Australia,0.0
+cat__state_Sonora,0.0
+cat__state_Somali,0.0
+cat__state_Sohag,0.0
+cat__state_Sinaloa,0.0
+cat__state_Sikkim,0.0
+cat__state_Sidama,0.0
+cat__state_Sichuan,0.0
+cat__state_Shimane,0.0
+cat__state_Southern,0.0
+cat__state_Aswan,0.0
+cat__state_Assam,0.0
+cat__state_Asir Province,0.0
+cat__state_Arkansas,0.0
+cat__state_Aomori,0.0
+cat__state_Anhui,0.0
+cat__state_Anambra,0.0
+cat__state_Amhara,0.0
+cat__state_Alexandria,0.0
+cat__state_Alaska,0.0
+cat__state_Alabama,0.0
+cat__state_Al-Qassim Province,0.0
+cat__state_Al Jawf Province,0.0
+cat__state_Southeastern Anatolia,0.0
+cat__state_Southeast,0.0
+cat__city_Dundee,0.0
+cat__state_Wales,0.0
+cat__state_Wakayama,0.0
+cat__state_Volga,0.0
+cat__state_Virginia,0.0
+cat__city_Alexandria,0.0
+cat__state_Île-de-France,0.0
+cat__state_Zhejiang,0.0
+cat__state_Yorkshire,0.0
+cat__state_Yamanashi,0.0
+cat__state_Yamaguchi,0.0
+cat__state_Yamagata,0.0
+cat__state_Wisconsin,0.0
+cat__state_Tochigi,0.0
+cat__state_Tlaxcala,0.0
+cat__state_Tigray,0.0
+cat__state_Hauts-de-France,0.0
+cat__state_Hainan,0.0
+cat__state_Hail Province,0.0
+cat__state_Guangxi,0.0
+cat__state_Xinjiang,0.0
+cat__state_Vermont,0.0
+cat__state_Veracruz,0.0
+cat__state_Uttarakhand,0.0
+cat__state_Tripura,0.0
+cat__state_Toyama,0.0
+cat__state_Tottori,0.0
+cat__prefecture_Unknown,0.0
+cat__region_Unknown,0.0
+cat__province_Unknown,0.0
+cat__division_Unknown,0.0
+cat__city_Springfield,0.0

@@ -1,0 +1,19 @@
+{
+  "rows_train": 50000,
+  "rows_val": 10000,
+  "rows_test": 10000,
+  "feature_count": 73,
+  "categorical_feature_count": 9,
+  "numeric_feature_count": 64,
+  "best_model_by_val_macro_f1": "LightGBM_Optuna",
+  "best_val_macro_f1": 0.9558258871660886,
+  "best_test_macro_f1": 0.9369048947778836,
+  "best_test_weighted_f1": 0.9861494546146315,
+  "best_test_accuracy": 0.9863,
+  "smoteenn_used": false,
+  "optuna_trials": 50,
+  "notes": [
+    "Optuna LightGBM tuned with 50 trials. Best val macro F1=0.9558",
+    "SHAP skipped due to AttributeError: 'list' object has no attribute 'shape'"
+  ]
+}
